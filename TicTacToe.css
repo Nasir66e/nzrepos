@@ -1,0 +1,47 @@
+       body {
+          background: #000;
+          user-select: none;
+          font-family: 'Architects Daughter', cursive;
+          overflow: hidden;
+        }
+
+        #main {
+          height: 340px;
+          width: 340px;
+          border-radius: 2px;
+          background: transparent;
+          padding: 2px;
+          display: flex;
+          align-items: space-around;
+          justify-content: space-around;
+          flex-direction: row;
+          flex-flow: row wrap;
+        }
+
+        .a {
+          height: 100px;
+          width: 100px;
+          border-radius: 2px;
+          background: lightpink;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 64px;
+          color: #000;
+          cursor: pointer;
+
+        }
+
+        .a:hover {
+          background: #569597;
+        }
+
+        h1,
+        h2 {
+          font-size: 38px;
+          color: goldenrod;
+          background: transparent;
+          width: fit-content;
+          padding: 20px;
+          border-radius: 2px;
+        }
